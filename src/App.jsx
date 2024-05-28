@@ -80,7 +80,7 @@ export default function App() {
             level={"H"}
             includeMargin={false}
             imageSettings={{
-              src: "https://static.zpao.com/favicon.png",
+              src: "/public/qr-code.svg",
               x: undefined,
               y: undefined,
               height: 24,
