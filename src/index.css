@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #3f51b5;
+}
+.bg-primary-color {
+  background-color: var(--primary-color) !important;
+}
+.app > .content {
+  -webkit-box-shadow: 10px 10px 5px 0px #252525;
+  -moz-box-shadow: 10px 10px 5px 0px #252525;
+  box-shadow: 10px 10px 5px 0px #252525;
+  border-radius: 20px;
+  padding: 30px;
+  input:focus {
+    border: 1px solid var(--primary-color) !important;
+  }
+  input:focus ~ label {
+    background-color: #fff !important;
+  }
+  .qrcode {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 780px) {
+  .app > .content {
+    width: 100% !important;
+  }
+}
